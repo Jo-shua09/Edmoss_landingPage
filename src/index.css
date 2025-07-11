@@ -1,0 +1,50 @@
+/* MONTSERRAT FONT */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+/* NEWSREADER FONT */
+@import url("https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+  outline: none;
+  transition: 0.2s ease-in-out all;
+  text-transform: capitalize;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background: rgb(242, 237, 237);
+}
+
+h1,
+h2 {
+  font-family: "Newsreader", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 66.5%;
+}
+
+.section {
+  padding: 5rem 3rem;
+}
+.section-page {
+  padding: 0 3rem;
+}
+
+@media (max-width: 991px) {
+  html {
+    font-size: 55.5%;
+  }
+}
+
+@media (max-width: 991px) {
+  html {
+    font-size: 51.5%;
+  }
+}
