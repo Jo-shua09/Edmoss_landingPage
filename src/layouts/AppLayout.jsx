@@ -6,7 +6,7 @@ export default function AppLayout() {
   return (
     <div className="w-full m-auto max-w-[185rem]">
       <Header />
-      <main>
+      <main className="pt-40">
         <Outlet />
       </main>
       <Footer />

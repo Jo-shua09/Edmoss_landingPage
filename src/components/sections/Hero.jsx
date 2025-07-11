@@ -8,7 +8,7 @@ export default function Hero() {
       <div className="flex flex-wrap items-center justify-between gap-10 gap-y-16 md:flex-nowrap">
         {/* Left Content */}
         <div className="w-full md:flex-1">
-          <div className="max-w-6xl">
+          <div className="md:max-w-6xl">
             <div className="space-y-10">
               <h1 className="font-semibold text-[7rem] md:text-[8.5rem] leading-[6rem] md:leading-[9rem]">
                 creating <span className="text-yellow-500">Exceptional value</span> for your business
