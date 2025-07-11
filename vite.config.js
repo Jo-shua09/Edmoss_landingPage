@@ -7,7 +7,7 @@ export default defineConfig({
   plugins: [
     react(),
     ViteFaviconsPlugin({
-      logo: "./public/logo.png", // Path relative to project root
+      // logo: "./public/logo.png", // Path relative to project root
       inject: true,
       favicons: {
         appName: "EDMOSS",
