@@ -15,10 +15,10 @@ const iconComponents = {
 
 export default function Services() {
   return (
-    <section className="w-full mx-auto section !py-32">
+    <section id="services" className="w-full mx-auto section !py-32">
       <div className="mb-20 text-center">
-        <h2 className="mb-3 font-bold text-7xl lg:text-8xl text-blue-950">Services That Drive Results</h2>
-        <p className="mx-auto text-4xl text-gray-600 max-w-6xl md:max-w-[90rem]">
+        <h2 className="mb-3 text-6xl font-bold md:text-7xl lg:text-8xl text-blue-950">Services That Drive Results</h2>
+        <p className="mx-auto text-4xl text-gray-600  normal-case max-w-5xl sm:max-w-6xl md:max-w-[90rem]">
           We offer comprehensive business solutions designed to create measurable value and sustainable growth for your organization.
         </p>
       </div>
@@ -48,7 +48,7 @@ export default function Services() {
                 </div>
                 <ButtonOne
                   name="learn more"
-                  className="w-full bg-transparent !mt-20 group-hover:bg-blue-950 !text-blue-950 group-hover:!text-white flex justify-between h-[5rem] !gap-12"
+                  className="w-full bg-transparent !mt-20 group-hover:bg-blue-950 !text-blue-950 group-hover:!text-white flex justify-between h-[6rem] !gap-12"
                   icon={<FiArrowRight className="text-4xl" />}
                 />
               </div>

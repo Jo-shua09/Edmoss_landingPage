@@ -11,7 +11,7 @@ export default function Header() {
   };
 
   return (
-    <header className="flex-wrap w-full bg-white shadow-xl h-fit">
+    <header className="flex-wrap w-full bg-white shadow-2xl h-fit">
       <div className="!py-10 w-full mx-auto section-page ">
         <div className="flex items-center justify-between">
           {/* Logo */}

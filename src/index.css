@@ -33,6 +33,7 @@ html {
 .section {
   padding: 5rem 3rem;
 }
+
 .section-page {
   padding: 0 3rem;
 }
@@ -46,5 +47,12 @@ html {
 @media (max-width: 991px) {
   html {
     font-size: 51.5%;
+  }
+  .section {
+    padding: 5rem 2rem;
+  }
+
+  .section-page {
+    padding: 0 2rem;
   }
 }

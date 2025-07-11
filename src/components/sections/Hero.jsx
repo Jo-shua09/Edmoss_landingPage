@@ -4,13 +4,13 @@ import { BiAward, BiTrendingUp } from "react-icons/bi";
 
 export default function Hero() {
   return (
-    <section className="mx-auto section bg-gradient-to-br from-gray-50 to-white !pb-28">
+    <section id="about" className="mx-auto section bg-gradient-to-br from-gray-50 to-white !pb-28">
       <div className="flex flex-wrap items-center justify-between gap-10 gap-y-16 md:flex-nowrap">
         {/* Left Content */}
         <div className="w-full md:flex-1">
           <div className="max-w-6xl">
             <div className="space-y-10">
-              <h1 className="font-semibold text-[8.5rem] leading-[9rem]">
+              <h1 className="font-semibold text-[7rem] md:text-[8.5rem] leading-[6rem] md:leading-[9rem]">
                 creating <span className="text-yellow-500">Exceptional value</span> for your business
               </h1>
               <p className="text-4xl font-medium normal-case font-one text-blue-950">
@@ -47,7 +47,7 @@ export default function Hero() {
 
         {/* Right Content - Visual Elements */}
         <div className="w-full md:flex-1">
-          <div className="p-16 space-y-6 bg-white shadow-2xl rounded-2xl">
+          <div className="p-8 space-y-6 bg-white shadow-2xl md:p-16 rounded-2xl">
             <div className="mb-12 text-center">
               <h2 className="mb-2 text-5xl font-semibold text-blue-950">Our Core Focus</h2>
               <p className="text-4xl text-gray-600 normal-case">Delivering measurable business value</p>

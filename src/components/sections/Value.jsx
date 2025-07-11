@@ -14,7 +14,7 @@ const iconComponents = {
 
 export default function Value() {
   return (
-    <section className="w-full mx-auto section bg-white !py-32">
+    <section id="values" className="w-full mx-auto section bg-white !py-32">
       <div className="mb-20 text-center">
         <h2 className="mb-3 font-bold text-7xl lg:text-8xl text-blue-950">Our Core Values</h2>
         <p className="mx-auto text-4xl text-gray-600 max-w-6xl md:max-w-[90rem]">
