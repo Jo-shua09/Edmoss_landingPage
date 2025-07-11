@@ -27,8 +27,8 @@ export default function Services() {
         {services.map((service, index) => {
           const IconComponent = iconComponents[service.icon];
           return (
-            <div key={index} className="p-8 bg-white border-0 shadow-lg group rounded-xl hover:shadow-2xl hover:-translate-y-1">
-              <div className="p-8 space-y-12">
+            <div key={index} className="p-5 bg-white border-0 shadow-lg md:p-8 group rounded-xl hover:shadow-2xl hover:-translate-y-1">
+              <div className="p-5 space-y-12 md:p-8">
                 <div className="flex items-center space-x-4">
                   <div className="flex items-center justify-center p-8 bg-blue-950 rounded-xl group-hover:scale-110">
                     {IconComponent && <IconComponent className="text-5xl text-white" />}

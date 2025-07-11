@@ -16,8 +16,8 @@ export default function Value() {
   return (
     <section id="values" className="w-full mx-auto section bg-white !py-32">
       <div className="mb-20 text-center">
-        <h2 className="mb-3 font-bold text-7xl lg:text-8xl text-blue-950">Our Core Values</h2>
-        <p className="mx-auto text-4xl text-gray-600 max-w-6xl md:max-w-[90rem]">
+        <h2 className="mb-3 text-6xl font-bold md:text-7xl lg:text-8xl text-blue-950">Our Core Values</h2>
+        <p className="mx-auto text-4xl text-gray-600  normal-case max-w-5xl sm:max-w-6xl md:max-w-[90rem]">
           These fundamental principles guide every decision we make and every solution we deliver, ensuring consistent value creation for our clients.
         </p>
       </div>
