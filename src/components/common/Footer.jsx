@@ -1,8 +1,7 @@
 import { BiMapPin, BiPhone } from "react-icons/bi";
-import { BsMailbox, BsTwitter } from "react-icons/bs";
+import { BsTwitter } from "react-icons/bs";
 import { FaFacebook } from "react-icons/fa";
 import { LiaLinkedin } from "react-icons/lia";
-import { RiMvAiLine } from "react-icons/ri";
 import { ButtonOne } from "../ui/Button";
 import { CiMail } from "react-icons/ci";
 
